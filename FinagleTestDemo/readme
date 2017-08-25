@@ -1,0 +1,44 @@
+<build>
+        <plugins>
+            <plugin>
+                <groupId>com.twitter</groupId>
+                <artifactId>scrooge-maven-plugin</artifactId>
+                <version>${scrooge.version}</version>
+                <configuration>
+                    <thriftNamespaceMappings>
+                        <thriftNamespaceMapping>
+                            <from>com.twitter.demo</from>
+                            <to>com.test.finagle.demo</to>
+                        </thriftNamespaceMapping>
+                    </thriftNamespaceMappings>
+                    <language>java</language>
+                    <!-- default is scala -->
+                    <thriftOpts>
+                        <!-- add other Scrooge command line options using thriftOpts -->
+                        <thriftOpt>--finagle</thriftOpt>
+                        <!--<thriftOpt>\-\-ostrich</thriftOpt>-->
+                    </thriftOpts>
+                    <!-- tell scrooge to extract thrifts from these artifacts -->
+                    <!--<dependencyIncludes>-->
+                        <!--<include>event-logger-thrift</include>-->
+                    <!--</dependencyIncludes>-->
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>thrift-sources</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>thrift-test-sources</id>
+                        <phase>generate-test-sources</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>

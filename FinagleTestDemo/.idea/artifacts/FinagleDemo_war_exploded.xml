@@ -1,0 +1,54 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FinagleDemo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FinagleDemo_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FinagleDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.twitter:scrooge-core_2.10:4.2.0" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.10.6" />
+          <element id="library" level="project" name="Maven: com.twitter:finagle-thrift_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter:finagle-core_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.9.4.Final" />
+          <element id="library" level="project" name="Maven: com.twitter:util-app_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter:util-core_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter:util-collection_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: com.twitter:util-hashing_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter:util-jvm_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter:util-logging_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: org.scalatest:scalatest_2.10:2.2.2" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-reflect:2.10.4" />
+          <element id="library" level="project" name="Maven: org.apache.thrift:libthrift:0.5.0" />
+          <element id="library" level="project" name="Maven: com.twitter:finagle-serversets_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter.common.zookeeper:server-set:1.0.83" />
+          <element id="library" level="project" name="Maven: com.twitter:finagle-test_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Maven: com.twitter:util-zk-common_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter:util-zk_2.10:6.22.0" />
+          <element id="library" level="project" name="Maven: com.twitter.common.zookeeper:client:0.0.60" />
+          <element id="library" level="project" name="Maven: com.twitter.common.zookeeper:group:0.0.78" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.3.4" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:16.0.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.3.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.3.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.3.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-scala_2.10:2.3.1" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.6" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:2.0.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.19" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.19" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="FinagleDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
